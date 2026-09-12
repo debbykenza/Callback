@@ -1,0 +1,19 @@
+Developpeur Fullstack en alternance
+Niji Nantes
+
+Dans le cadre du developpement de notre pole digital, nous recherchons un(e)
+alternant(e) developpeur/developpeuse fullstack pour rejoindre une equipe produit
+existante.
+
+Stack technique : React, TypeScript, FastAPI (Python), PostgreSQL, Docker.
+
+Missions :
+- Participer au developpement de nouvelles fonctionnalites cote frontend et backend
+- Ecrire des tests unitaires et participer aux revues de code
+- Contribuer a l'amelioration continue de l'architecture existante
+
+Profil recherche : etudiant(e) en cycle ingenieur informatique, a l'aise avec au
+moins un framework frontend moderne et un framework backend Python. Profil junior
+bienvenu, la montee en competence se fait avec l'equipe.
+
+Alternance de 3 ans, rythme 3 semaines entreprise / 1 semaine ecole.

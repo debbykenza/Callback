@@ -1,0 +1,20 @@
+version: "3.8"
+
+# Lance uniquement la base de donnees Postgres. Le backend (FastAPI) et le
+# frontend (SvelteKit) se lancent a la main (voir README.md) pour rester
+# faciles a modifier/deboguer pendant le developpement.
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: callback
+      POSTGRES_PASSWORD: callback
+      POSTGRES_DB: callback
+    ports:
+      - "5432:5432"
+    volumes:
+      - callback_db_data:/var/lib/postgresql/data
+
+volumes:
+  callback_db_data:
